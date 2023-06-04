@@ -1,0 +1,19 @@
+.logo {
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    padding: 1px;
+    margin: 1px;
+    background-color: #b0f0e5;
+}
+
+body {
+    background-color: #a0ffea48;
+    color: rgb(0, 0, 0);
+}
+
+tr.details {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 1px;
+}

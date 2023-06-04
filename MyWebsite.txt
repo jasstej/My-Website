@@ -1,0 +1,63 @@
+<!-- Title: MyWebsite - Beginner Level Assignment
+
+Instructions:
+
+1. Create a new folder on your computer and name it "MyWebsite."
+
+2. Inside the "MyWebsite" folder, create the following files:
+   - "index.html" for your HTML code.
+   - "styles.css" for your CSS code.
+   - "script.js" for your JavaScript code.
+
+3. Open the "index.html" file in a code editor of your choice.
+
+4. Set up the basic structure of your HTML document using the appropriate HTML tags. Include the following elements:
+
+   - `<head>` section:
+     - Add a title to the document using the `<title>` tag.
+     - Link the "styles.css" file using the `<link>` tag.
+
+   - `<body>` section:
+     - Create a `<header>` element with a heading using appropriate header tags (`<h1>`, `<h2>`, etc.).
+     - Inside the `<header>`, add an image using the `<img>` tag, specifying the source (`src`) and alternative text (`alt`).
+
+   - Create a navigation menu using the `<nav>` element:
+     - Inside the `<nav>`, create an unordered list `<ul>` with list items `<li>`.
+     - Add anchor tags `<a>` inside the list items, linking to different sections of your website using the `href` attribute.
+
+   - Create a section with a table:
+     - Use the `<section>` element to define a section.
+     - Inside the section, create a table using the `<table>` tag.
+     - Add table headers using the `<th>` tag and table cells using the `<td>` tag.
+     - Populate the table with appropriate data.
+
+   - Create a section with a list:
+     - Use the `<section>` element to define a section.
+     - Inside the section, create an unordered list `<ul>` or ordered list `<ol>` with list items `<li>`.
+     - Add content to the list items.
+
+   - Create a section with a form:
+     - Use the `<section>` element to define a section.
+     - Inside the section, create a `<form>` tag.
+     - Include different form elements such as text input fields, checkboxes, radio buttons, dropdown menus, and a submit button using appropriate form tags (`<input>`, `<select>`, `<textarea>`, etc.).
+
+5. Open the "styles.css" file in your code editor.
+
+6. Write CSS rules to style the different elements of your HTML document. Here are some suggestions:
+
+   - Set the background color, text color, and font styles for the body.
+   - Style the header, including the heading and image.
+   - Customize the navigation menu, adjusting the color, layout, and hover effects.
+   - Apply appropriate styles to the table, such as borders and padding.
+   - Customize the list styles, including bullet points or numbering.
+   - Style the form elements, such as changing the font, adjusting the input fields' size, and adding spacing.
+
+7. Open the "script.js" file in your code editor.
+
+8. Write JavaScript code if needed. For this assignment, you can add interactivity to your website, such as form validation or event handling. You can also choose to leave the "script.js" file empty if you don't need any JavaScript functionality.
+
+9. Customize the HTML content, CSS styles, and JavaScript code to personalize your website.
+
+10. Save all the files.
+
+11. Open the "index.html" file in a web browser to see your website in action. -->
