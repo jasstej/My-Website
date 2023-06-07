@@ -5,63 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyWebsite - Beginner Level Assignment</title>
+    <title>Jasstej Singh</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="logo">
-        <h1 style="text-align: center;">Jasstej Singh</h1>
+    <header>
+        <nav>
+            <div class="left">
+                Jasstej Singh
+            </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/"> home</a></li>
+                    <li> <a href="/"> About</a></li>
+                    <li> <a href="/"> Social Media</a></li>
+                    <li> <a href="/"> Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
     </header>
 
+    <main>
+        <section class="firstSection">
+            <div class="LeftSection">
+                Hello my name is <span class="purpal">Jasstej Singh</span>
 
-    <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-        </ul>
-    </nav>
-
-    <section>
-        <h2>
-            Details
-        </h2>
-        <table border="1">
-            <tr>
-                <th>Name</th>
-                <th>Phone No.
-            </tr>
-            </tr>
-            <tr class="details">
-                <td>Jasstej Singh</td>
-                <td>+91 79861 56357</td>
-            </tr>
-        </table>
-    </section>
-    <br>
-    <section>
-        <h2>Qualities</h2>
-        <ul>
-            <li>good at team hendling</li>
-            <li>Helping Hand</li>
-        </ul>
-        </table </section>
-        <section>
-            <form action="" method="get" class="form">
-                <div class="form">
-                    <label for="name">Enter your name: </label>
-                    <input type="text" name="name" id="name" required>
-                </div>
-                <div class="form">
-                    <label for="email">Enter your email: </label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="form">
-                    <input type="submit" value="Subscribe!">
-                </div>
-
-            </form>
+                <div>And I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="RightSection">
+                <img src="./assets/bg.png" alt="">
+            </div>
         </section>
+
+        <hr>
+
+        <section class="SecondSection">
+            <span class="text-gray">What have i done so far</span>
+            <h1>Past Experience</h1>
+            <div class="box">
+                <img src="" alt="">
+                <div class="vertical"></div>
+
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', '&amp; Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>
